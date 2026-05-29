@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -34,7 +36,7 @@ jobs:
 
       - name: Build Installer with NSIS
         run: |
-          makensis installer.nsi
+          & "C:\Program Files (x86)\NSIS\makensis.exe" installer.nsi
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
