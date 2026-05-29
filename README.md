@@ -1,5 +1,9 @@
 # Video Transcriber Pro
 
+> **👋 Hi team!** You can download our new Video Transcriber application here: **[Download Latest Installer](https://github.com/ahl-official/VideoTranscriberPro/releases/latest)**
+> 
+> Just download the `VideoTranscriberPro-Installer.exe` file under "Assets" and double-click it to install. If you need a guide on how to use it, you can read the instructions in the [Usage Guide](#usage) below.
+
 A Python GUI application that transcribes video files to text and generates SRT subtitle files using AssemblyAI's advanced speech-to-text API.
 
 ## Features
