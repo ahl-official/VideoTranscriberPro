@@ -52,7 +52,15 @@ YT_local/
 
 ## Installation
 
-### Prerequisites
+### For End Users / Employees
+1. Go to the **[Releases Page](https://github.com/ahl-official/VideoTranscriberPro/releases/latest)**.
+2. Download the `VideoTranscriberPro-Installer.exe` file.
+3. Double-click the installer and follow the setup instructions.
+4. Launch "Video Transcriber Pro" from your Desktop or Start Menu!
+
+### For Developers (Build from Source)
+
+#### Prerequisites
 - Python 3.8 or higher
 - pip (Python package manager)
 
